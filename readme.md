@@ -10,12 +10,13 @@ struct Profile {
     let quote = "i l(ove|ike) regexp?"
     let technologies = FullStack(
         frontEnd: [
-            .react,
+            .nextjs,
+            .svelte,
             .sass
         ],
         backEnd: [
             .django,
-            .rails
+            .postgresql
         ],
         other: [
             .graphql,
