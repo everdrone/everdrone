@@ -2,10 +2,10 @@
 struct Profile {
     let url = "https://neurocore.xyz"
     var stack = [
-        "c++",
+        "go",
         "python",
-        "javascript",
-        "ruby"
+        "typescript",
+        "c++"
     ]
     let quote = "i l(ove|ike) regexp?"
     let technologies = FullStack(
