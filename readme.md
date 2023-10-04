@@ -2,10 +2,11 @@
 struct Profile {
     let url = "https://neurocore.xyz"
     var stack = [
+        "rust",
         "go",
+        "c++",
         "python",
         "typescript",
-        "c++"
     ]
     let quote = "i l(ove|ike) regexp?"
     let technologies = FullStack(
@@ -17,6 +18,7 @@ struct Profile {
         backEnd: [
             .django,
             .postgresql
+            .qdrant
         ],
         other: [
             .graphql,
